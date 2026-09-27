@@ -8,12 +8,12 @@ var tempCollection = ee.ImageCollection(
     'projects/mapbiomas-public/assets/brazil/atmosphere/collection1/mapbiomas_brazil_collection1_air_temperature_annual_v2'
 );
 
-// 2. Filtrar a imagem de temperatura MÍNIMA (ID contém 'min')
+// 2. Filtrar a imagem de temperatura MÍNIMA
 var minImg = tempCollection
     .filter(ee.Filter.stringContains('system:index', 'min'))
     .first();
 
-// 3. Média das 40 bandas anuais
+// 3. Média das bandas anuais
 var mediaTempMin = minImg.reduce(ee.Reducer.mean()).clip(brasil);
 
 // 4. Visualização
