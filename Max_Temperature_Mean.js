@@ -8,7 +8,7 @@ var tempCollection = ee.ImageCollection(
     'projects/mapbiomas-public/assets/brazil/atmosphere/collection1/mapbiomas_brazil_collection1_air_temperature_annual_v2'
 );
 
-// 2. Filtrar a imagem de temperatura MÁXIMA (ID contém 'max')
+// 2. Filtrar a imagem de temperatura MÁXIMA
 var maxImg = tempCollection
     .filter(ee.Filter.stringContains('system:index', 'max'))
     .first();
