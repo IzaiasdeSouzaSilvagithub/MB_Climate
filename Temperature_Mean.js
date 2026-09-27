@@ -20,7 +20,7 @@ var meanImg = ee.Image(ee.Algorithms.If(
     tempCollection.first()
 ));
 
-// 4. Calcular a média das 40 bandas anuais (temperature_1985 a temperature_2024)
+// 4. Calcular a média das bandas anuais
 var mediaTemp = meanImg.reduce(ee.Reducer.mean()).clip(brasil);
 
 // 5. Visualização
