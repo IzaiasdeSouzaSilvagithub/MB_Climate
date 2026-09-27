@@ -13,7 +13,7 @@ Para maiores detalhes sobre o conjunto de dados acesse https://brasil.mapbiomas.
 ### <a href="https://code.earthengine.google.com/81eaaebf96b3694260d714646553f1cd"> Temeratura Máxima.
 
 
-| Variável | Definição |
+| Variável | Definição no código|
 | :--- | :--- |
 | **Precipitação** | Corresponde à média dos acumulados anuais de chuva entre 1985 e 2024, medida em mm/ano. |
 | **Temperatura Média** | Indica a média das temperaturas médias anuais do ar entre 1985 e 2024, registrada em °C. |
