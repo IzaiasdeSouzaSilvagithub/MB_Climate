@@ -4,4 +4,10 @@ Este material foi desenvolvido com o objetivo de demonstrar como acessar os dado
 
 Para maiores detalhes sobre o conjunto de dados acesse https://brasil.mapbiomas.org/iniciativas-e-produtos/atmosfera/
 
-### <a href="https://code.earthengine.google.com/ac4c8b688f5399da3e22a47485977c09"> Estrutura de dados (Image e ImageCollection).
+### <a href="https://code.earthengine.google.com/9025d6ff5383e8f88ae866de8fb4f2b5"> Precipitação.
+
+### <a href="https://code.earthengine.google.com/7d4eaee18e7eafd3a9aa40d9eb58d971"> Temeratura Média.
+
+### <a href="https://code.earthengine.google.com/2728f7b818b94c5b9d443201efc3ebe0"> Temeratura Mínima.
+
+### <a href="https://code.earthengine.google.com/81eaaebf96b3694260d714646553f1cd"> Temeratura Máxima.
